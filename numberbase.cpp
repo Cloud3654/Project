@@ -11,9 +11,10 @@ void init() {
         }
     }
 }
-bool comp(pair<int, int> a, pair<int, int> b) { return a.first > b.first; }
+bool compare1(pair<int, int> a, pair<int, int> b) { return a.first > b.first; }
 int choose() {
     vector<pair<int, int>> length_pos;
+    for (int i = 0; i < 5; i++) length_pos = { digits[i].nums.size(), i };
 }
 void del() {
     
